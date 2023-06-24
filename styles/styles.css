@@ -1,0 +1,310 @@
+@font-face {
+
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/pt-sans-italic.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/pt-sans-bold-italic.woff2") format("woff2");
+    font-display: swap;
+  }
+
+
+  body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color:#ffffff;
+  }
+
+  .button-beige {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #756157;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .button-blue {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #82B3D3;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  /* Pages */
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-index {
+  background-image: url("../images/back/main-background@2x.jpg"), url("../images/back/Vector.svg");
+  color: #000000;
+  background-color: #ffffff;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/* List */
+.advantages-list {
+  text-align: center;
+}
+
+/* Title */
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.reasons-title{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.main-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  }
+  .action-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    }
+
+    .mailing-title{
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 700;
+      text-align: center;
+      }
+
+  .services-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    }
+
+    .mailing-title-main{
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 700;
+      color: #FFFFFF;
+      text-align: center;
+    }
+
+  .sedona-description {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .reasons-description {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .mailing {
+    background-image: url("../images/back/backgraound\ footer\ main.jpg");
+    color: #000000;
+    background-color: #ffffff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .footer-contacts-phone {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .main-inner {
+    background-image: url("../images/back/Filter\ background.jpg");
+    color: #000000;
+    background-color: #ffffff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .inner-header-title{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 78px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .breadcrumbs-item{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .breadcrumbs-link {
+    font-family: "PT Sans", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .catalog-filter-title {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  .control{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .button{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  .founded{
+    color: #000000;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+  .sorting-container {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  .product-card {
+    background-color: #ffffff;
+  }
+  .product-card-link {
+    text-decoration: none;
+  }
+  .product-card-title{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .product-card-type {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .product-card-price{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: right;
+  }
+
+  .rate{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .mailing-title{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+
+  .mailing-subtitle{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .footer-contacts-phone {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+  }

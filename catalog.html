@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Добропожаловать в Седону</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -40,7 +41,7 @@
 
 <li class="navigation-item">
 
-  <a href=" #">Хочу сюда!
+  <a class="button button-beige" href="#">Хочу сюда!
     </a>
      </li>
 
@@ -120,12 +121,12 @@
 <legend class="catalog-filter-title">Стоимость</legend>
 </fieldset>
 
-<button class="button" type="submit">Применить</button>
+<button class="button button-blue"  type="submit">Применить</button>
 <button class="button" type="reset">Сбросить</button>
 </form>
 
-<p> Найдено гостиниц: 38</p>
-<div>
+<p class="founded"> Найдено гостиниц: 38</p>
+<div class="sorting-container">
   <img class="select" src="images/tick.svg" width="12" height="9"alt="Значок вниз">
 <select class="select-control" aria-label="Сортировка">
  <option value="popular">Сначала популярное</option>
@@ -161,8 +162,9 @@
 <span class="product-card-price">От 4000₽</span>
 </p>
 
-<a class="product-card-button button" href="#">подробнее</a>
-<a class="product-card-button button" href="#">в избранное</a>
+<a class="button button-beige" href="#">подробнее</a>
+<a class="button button-blue"  href="#">в избранное</a>
+<p claa="rate">Рейтинг: 8,5</p>
 
 </li>
 
@@ -176,8 +178,9 @@
 <span class="product-card-type">Гостиница</span>
 <span class="product-card-price">От 5000₽</span>
 </p>
-<a class="product-card-button button" href="#">подробнее</a>
-<a class="product-card-button button" href="#">в избранное</a>
+<a class="button button-beige" href="#">подробнее</a>
+<a class="button button-blue"  href="#">в избранное</a>
+<p claa="rate">Рейтинг: 9,2</p>
 
   </li>
 
@@ -189,12 +192,13 @@
 </a>
 
 <p>
-<span class="product-card-type>Гостиница </span>
-<span class="product-card-price">От 2500₽</span>
+  <span class="product-card-type">Гостиница </span>
+  <span class="product-card-price">От 2500₽</span>
 </p>
 
-<a class="product-card-button " href="#">подробнее</a>
-<a button="product-card-button " type="button">в избранное</a>
+<a class="button button-beige" href="#">подробнее</a>
+<a class="button button-blue"  type="button">в избранное</a>
+<p claa="rate">Рейтинг: 6,9</p>
  </li>
 
 
@@ -203,11 +207,12 @@
     <img class="catalog" src="images/catalog/hotel  GreenTree Inn.jpg" width="300" height="212"alt="Гостиница GreenTree Inn">
   <h3 class="product-card-title">GreenTree Inn</h3>
 <p>
-<span class="product-card-description>Гостиница </span>
+<span class="product-card-type">Гостиница </span>
  <span class="product-card-price">От 1500₽</span>
 </p>
-<a class="product-card-button " href="#">подробнее</a>
-<a button="product-card-button " type="button">в избранное</a>
+<a class="button button-beige" href="#">подробнее</a>
+<a class="button button-blue"  type="button">в избранное</a>
+<p claa="rate">Рейтинг: 5,0</p>
 
   </li>
 </ul>
@@ -239,13 +244,13 @@
 
 <section class="mailing">
 <h2 class="mailing-title"> Подпишитесь на рассылку</h2>
-<p ="mailing-subtitle"> Только полезная информация и никакого спама, честное бойскаутское!</p>
+<p class="mailing-subtitle"> Только полезная информация и никакого спама, честное бойскаутское!</p>
 <img class="background" src="#" alt="Фоновое изображение">
 
 <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="mailing-email">Email</label>
           <input class="field"  placeholder=" Ваш e-mail" type="email" name="newsletter-email" id="mailing-email" required>
-          <button class="button " type="submit">Подписаться </button>
+          <button class="button button-blue" type="submit">Подписаться </button>
           </form>
         </section>
 
@@ -272,7 +277,7 @@
             </a>
           </li>
         </ul>
-<a class="footer-contacts-phone" href="tel:+78128121212+7 (812) 812-12-12</a>
+<a class="footer-contacts-phone" href="tel:+78128121212"> +7 (812) 812-12-12</a>
 <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
 <img class="social" src="images/footer/footer HTML Academy.svg" width="115" height="34"alt="Логотип HTML">
       </section>
