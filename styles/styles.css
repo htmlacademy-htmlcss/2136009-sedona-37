@@ -141,10 +141,19 @@
     text-align: center;
     }
 
+    .mailing-title-main{
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 700;
+      color: #FFFFFF;
+      text-align: center;
+    }
+
   .sedona-description {
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
+    color: #FFFFFF;
     text-align: center;
   }
 
@@ -171,17 +180,131 @@
   }
 
   .main-inner {
-    background-image: url("../images/back/main-background@2x.jpg"), url("../images/back/Vector.svg");
+    background-image: url("../images/back/Filter\ background.jpg");
     color: #000000;
     background-color: #ffffff;
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
   .inner-header-title{
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
     font-size: 60px;
     line-height: 78px;
     font-weight: 700;
     text-align: left;
+  }
+
+  .breadcrumbs-item{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .breadcrumbs-link {
+    font-family: "PT Sans", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .catalog-filter-title {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  .control{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .button{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  .founded{
+    color: #000000;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+  .sorting-container {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  .product-card {
+    background-color: #ffffff;
+  }
+  .product-card-link {
+    text-decoration: none;
+  }
+  .product-card-title{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .product-card-type {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .product-card-price{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: right;
+  }
+
+  .rate{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .mailing-title{
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+
+  .mailing-subtitle{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .footer-contacts-phone {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
   }
