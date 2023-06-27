@@ -95,6 +95,18 @@
 /* List */
 .advantages-list {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+.services-list{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000000;
 }
 
 /* Title */
@@ -149,7 +161,17 @@
       text-align: center;
     }
 
+
+    /* Description */
   .sedona-description {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .sedona-description-mail{
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
@@ -193,7 +215,18 @@
     font-weight: 700;
     text-align: left;
   }
+  .catalog-filter-title {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+  }
 
+/* Item */
+
+  .services-item {
+    width: 400px;
+  }
   .breadcrumbs-item{
     color: #ffffff;
     font-size: 16px;
@@ -211,12 +244,7 @@
     text-align: left;
   }
 
-  .catalog-filter-title {
-    color: #ffffff;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 700;
-  }
+
 
   .control{
     color: #ffffff;
@@ -230,6 +258,11 @@
     line-height: 20px;
     font-weight: 700;
   }
+
+  .button-search{
+    text-align: center;
+  }
+
   .founded{
     color: #000000;
     font-size: 30px;
@@ -307,4 +340,45 @@
     line-height: 40px;
     font-weight: 400;
     text-align: center;
+  }
+  .navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .navigation-list {
+    width: 439px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-user {
+    max-width: 368px;
+    margin-left: auto;
+  }
+
+  .page-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .index-columns {
+    color: #242424;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+
+  .page-footer-container {
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+  }
+  .footer-social-item {
+    width: 142px;
   }

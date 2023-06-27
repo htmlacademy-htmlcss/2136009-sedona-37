@@ -8,9 +8,8 @@
   <body>
 
     <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
- <!-- main -->
-    <!-- main header -->
 
+  <!-- Шапка -->
 <header class="page-header">
 
   <nav class="navigation">
@@ -52,19 +51,24 @@
  </ul>
 </nav>
 </header>
-  <!-- main header -->
 
 
-  <!-- main -->
- <main class="main-index">
+
+ <main class="main-container main-index">
+  <div class="page-container">
+    <!--Главный заголовок -->
 
     <h1 class="visually-hidden">Гостиницы Седоны</h1>
+   <!-- Лого -->
     <img class="logo" src="images/welcome.svg" width="458" height="352" alt="Логотип Седона.">
 
 
-<!-- section reasons -->
+
 <h2 class="main-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
   <p class="sedona-description"> Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!<p>
+
+    <div class="index-columns">
+    <!-- Причины -->
   <section class="reasons">
   <h3 class="visually-hidden">Причины</h3>
   <ul class="advantages-list">
@@ -100,13 +104,16 @@
   <p class="reasons-description"> Да, по нему можно пройти! Если вы осмелитесь, разумеется </p>
   </li>
   </ul>
+  </section>
+  </div>
   <!-- section reasons -->
 
 
-  <!-- section services -->
+
   <h2 class="services-title"> Приезжайте в Седону отдохнуть в комфорте и уюте! </h2>
 <p class="sedona-description"> Опытный персонал и качественное обслуживание! </p>
 
+ <!-- Преимущества -->
 <section class="services">
 <h3 class="visually-hidden">Услуги</h3>
 <ul class="services-list">
@@ -130,21 +137,21 @@
 </li>
 </ul>
 </section>
-<!-- section services -->
+
 
 <!-- section action -->
 <section class="action">
 
   <h2 class="action-title"> Заинтересовались?</h2>
   <p class="sedona-description"> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-  <a class="button button-beige" href="#"> ПОИСК ГОСТИНИЦЫ В Cедоне</a>
+  <a class="button button-beige button-search" href="#"> ПОИСК ГОСТИНИЦЫ В Cедоне</a>
   </section>
   <!-- section action -->
 
   <!-- section mailing -->
   <section class="mailing">
     <h2 class="mailing-title-main"> Подпишитесь на рассылку</h2>
-    <p class="sedona-description"> Только полезная информация и никакого спама, честное бойскаутское!</p>
+    <p class="sedona-description-mail"> Только полезная информация и никакого спама, честное бойскаутское!</p>
     <img class="background" src="#" alt="Фоновое изображение">
 
     <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -154,12 +161,13 @@
        </form>
          </section>
   <!-- section mailing -->
-
+</div>
     </main>
  <!-- main -->
 
  <!-- footer -->
  <footer class="page-footer">
+  <div class="page-footer-container">
 
   <section class="footer-social"
   <ul class="footer-social-list">
@@ -190,8 +198,7 @@
   <a class="htmlacademy-link" href="https://htmlacademy.ru/"> .html academy</a>
   <img class="social" src="images/footer/footer HTML Academy.svg" width="115" height="34"alt="Логотип HTML">
   </section>
+</div>
   </footer>
-
- <!-- footer -->
   </body>
 </html>
