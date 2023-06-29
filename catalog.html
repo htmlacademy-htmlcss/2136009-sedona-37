@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
+<div class="container">
 
-    <!-- Шапка -->
-
+<!-- Шапка -->
 <header class="page-header">
 <nav class="navigation">
 <a class="navigation-logo" href="#">
@@ -50,29 +50,29 @@
   </nav>
 </header>
 
+<!-- Breadcrumbs-->
 <main class="main-inner">
+  <div class="page-container">
 <header class="inner-header">
   <h1 class="inner-header-title"> Гостиницы Седоны </h1>
 <ul class="breadcrumbs">
   <li class="breadcrumbs-item">
   <a class="breadcrumbs-link visually-hidden " href="index.html">Главная</a>
   <img class="breadcrumbs" src="images/white hotel.svg" src="images/arrow right.svg" width="13" height="13"alt="Значок домой">
-
   </li>
   <li class="breadcrumbs-item">
    <a class="breadcrumbs-link ">Гостиницы</a>
       </li>
+</ul>
+</header>
 
-
-
-
-
+<!-- Фильтры-->
+<h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+<div class="inner-columns"></div>
 <section class="catalog-products">
-  <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
-
 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post">
-
-<fieldset class="catalog-filter-group">
+<section class="filter">
+  <fieldset class="catalog-filter-group">
  <legend class="catalog-filter-title"> Инфраструктура: </legend>
 
 <ul class="catalog-filter-list">
@@ -93,7 +93,6 @@
 </li>
 </ul>
 </fieldset>
-
 
 <fieldset class="catalog-filter-group">
 <legend class="catalog-filter-title">Тип жилья</legend>
@@ -119,14 +118,22 @@
 </ul>
  </fieldset>
 
+
+
 <fieldset class="catalog-filter-group">
 <legend class="catalog-filter-title">Стоимость</legend>
 </fieldset>
-
+<section class="buttons">
 <button class="button button-blue"  type="submit">Применить</button>
 <button class="button" type="reset">Сбросить</button>
+</section>
+</section>
 </form>
+</section>
 
+
+<!--Найдено-->
+<section class="sorting">
 <p class="founded"> Найдено гостиниц: 38</p>
 <div class="sorting-container">
   <img class="select" src="images/tick.svg" width="12" height="9"alt="Значок вниз">
@@ -135,7 +142,6 @@
  <option value="cheap">Сначала дешёвое</option>
  <option value="expensive">Сначала дорогое</option>
   </select>
-
 <a href="#" class="button button-light">
  <span class="visually-hidden">Показать список</span>
  <img class="preview" src="images/preview/preview list.svg" width="12" height="9"alt="Показать список">
@@ -149,10 +155,11 @@
   <img class="preview" src="images/preview/preview columns.svg" width="16" height="14"alt="Показать колонки">
   </a>
 </div>
+</section>
 
-
+<!-- Отели-->
+<section class="products">
 <ul class="product-list">
-
 <li class="product-card">
 <a class="product-card-link" href="product.html">
   <img class="catalog" src="images/catalog/hotel Amara Resort & Spa.jpg" width="300" height="212"alt="Гостиница Amara Resort & Spa">
@@ -186,7 +193,6 @@
 
   </li>
 
-
 <li class="product-card">
   <a class="product-card-link" href="product.html">
     <img class="catalog" src="images/catalog/hotel  Desert Quail Inn.jpg" width="300" height="212"alt="Гостиница Desert Quail Inn">
@@ -218,6 +224,8 @@
 
   </li>
 </ul>
+</section>
+<!-- Пагнация-->
 
 <ul class="pagination">
 
@@ -240,11 +248,10 @@
             <a class="pagination-link" href="#">10 </a>
           </li>
         </ul>
-      </section>
 
-    </main>
 
-<section class="mailing">
+      <!-- Рассылка-->
+<section class="mailing-inner">
 <h2 class="mailing-title"> Подпишитесь на рассылку</h2>
 <p class="mailing-subtitle"> Только полезная информация и никакого спама, честное бойскаутское!</p>
 <img class="background" src="#" alt="Фоновое изображение">
@@ -254,10 +261,14 @@
           <input class="field"  placeholder=" Ваш e-mail" type="email" name="newsletter-email" id="mailing-email" required>
           <button class="button button-blue" type="submit">Подписаться </button>
           </form>
+        </div>
         </section>
+      </div>
+    </main>
 
-
+<!-- footer -->
 <footer class="page-footer">
+  <div class="page-footer-container">
 <section class="footer-social"
 <ul class="footer-social-list">
           <li class="footer-social-item">
@@ -283,6 +294,8 @@
 <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
 <img class="social" src="images/footer/footer HTML Academy.svg" width="115" height="34"alt="Логотип HTML">
       </section>
+    </div>
     </footer>
+    </div>
   </body>
 </html>

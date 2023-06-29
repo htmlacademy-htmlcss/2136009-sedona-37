@@ -33,11 +33,25 @@
 
 
   body {
-    font-family: "PT Sans", sans-serif;
-    font-size: 22px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
   line-height: 26px;
   color: #000000;
   background-color:#ffffff;
+  }
+
+  .container{
+    margin: 0 auto;
+    width: 1200x;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .main-container{
+    background-image: url(../images/back/back\ hero.jpg);
+    background-size: 1200px 485px;
   }
 
   .button-beige {
@@ -85,24 +99,27 @@
 }
 
 .main-index {
-  background-image: url("../images/back/main-background@2x.jpg"), url("../images/back/Vector.svg");
+
   color: #000000;
-  background-color: #ffffff;
+  background-color:#FFFFFF;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
 /* List */
 .advantages-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   text-align: center;
-  margin: 0;
-  padding: 0;
   color: #000000;
+
 }
 
 .services-list{
   display: flex;
-  justify-content: space-between;
+
+  flex-wrap:wrap;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -127,17 +144,46 @@
 }
 
 .main-title {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  font-weight: 700;
-  text-align: center;
+  text-transform: uppercase;
+  margin-left: 290px;
+  margin-right: 290px;
+  margin-top: 69px;
   }
-  .action-title {
+
+  .action-title{
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    font-weight: 700;
     font-size: 30px;
     line-height: 36px;
-    font-weight: 700;
-    text-align: center;
+    text-transform: uppercase;
+    margin-left: 451px;
+    margin-left: 451px;
+    margin-top: 96px;
     }
+    .mailing-title-main{
+      font-family: "PT Sans", sans-serif;
+      text-align: center;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+      text-transform: uppercase;
+      }
+
+      .mailing-title{
+        font-family: "PT Sans", sans-serif;
+      text-align: center;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+      text-transform: uppercase;
+
+      }
 
     .mailing-title{
       font-size: 30px;
@@ -147,10 +193,16 @@
       }
 
   .services-title {
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-    text-align: center;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  width: 505px;
+  margin-left: 347px;
+  margin-right:347px;
+  margin-top: 64px;
     }
 
     .mailing-title-main{
@@ -163,14 +215,51 @@
 
 
     /* Description */
+
+  .container-descripton{
+    width: 1200px;
+    text-align: center;
+    margin-top: 300px;
+  }
+  .container-descripton2{
+    width: 1200px;
+    text-align: center;
+  }
+
+  .action{
+     width: 1200px;
+    text-align: center;}
+
   .sedona-description {
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
     color: #000000;
     text-align: center;
+    margin-left: 274px;
+    margin-right: 274px;
   }
 
+
+.sedona-description2{
+  font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    margin-left: 355px;
+    margin-right: 355px;
+
+}
+
+.sedona-description3{
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-left: 304px;
+}
   .sedona-description-mail{
     font-size: 22px;
     line-height: 26px;
@@ -187,6 +276,17 @@
   }
   .mailing {
     background-image: url("../images/back/backgraound\ footer\ main.jpg");
+    background-size: 1200px 414px;
+    width: 1200px;
+    height: 414px;
+    color: #000000;
+    background-color: #ffffff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .mailing-inner {
+    width: 1200px;
+    height: 414px;
     color: #000000;
     background-color: #ffffff;
     background-size: 100% auto;
@@ -203,6 +303,7 @@
 
   .main-inner {
     background-image: url("../images/back/Filter\ background.jpg");
+    background-size: 1200px 412px ;
     color: #000000;
     background-color: #ffffff;
     background-size: 100% auto;
@@ -228,11 +329,17 @@
     width: 400px;
   }
   .breadcrumbs-item{
+    display: inline;
     color: #ffffff;
     font-size: 16px;
     line-height: 21px;
     font-weight: 400;
     text-align: left;
+  }
+
+  .reasons-item{
+    width: 400px;
+    height: 385px;
   }
 
   .breadcrumbs-link {
@@ -261,6 +368,7 @@
 
   .button-search{
     text-align: center;
+    margin-left: 413px;
   }
 
   .founded{
@@ -358,14 +466,8 @@
     margin-left: auto;
   }
 
-  .page-container {
-    width: 1200px;
-    margin: 0 auto;
-  }
-  .logo {
-    display: block;
-    margin: 0 auto;
-  }
+
+
 
   .index-columns {
     color: #242424;
@@ -374,11 +476,59 @@
     padding: 0 40px;
   }
 
+  .page-footer{
+    width: 1200px;
+    height: 120px;
+  }
+
   .page-footer-container {
     display: flex;
-    width: 1060px;
+    width: 1200px;
     margin: 0 auto;
   }
-  .footer-social-item {
-    width: 142px;
+
+  .navigation-logo {
+    width: 140px;
+    margin-right: 30px;
   }
+
+  .catalog-filter {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .reasons-blue{
+    color:#FFFFFF;
+    background-color:#82B3D3 ;
+  }
+  .reasons-grey{
+    color: #242424;
+   background-color:F0F6FA;
+  }
+
+  .reasons-light-blue{
+    color: #242424;
+    background-color: E6F0F6;
+  }
+
+  .filter{
+    display: flex;
+  }
+
+  .page-header-logo{
+    margin-left: 70px;
+  }
+
+.sorting{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  display:inline;
+}
+
+.product-list{
+  display: flex;
+  width:1060px;
+}
