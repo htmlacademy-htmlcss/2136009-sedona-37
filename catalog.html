@@ -19,7 +19,7 @@
 <li class="navigation-item">
 <a class="navigation-link" href="#">Главная</a>
     </li>
-<img class="header-logo" src="#" alt="Логотип City of Sedona">
+
 
 <li class="navigation-item">
     <a class="navigation-link" href="about.html">О Седоне</a>
@@ -52,6 +52,7 @@
 
 <!-- Breadcrumbs-->
 <main class="main-inner">
+  <section class="filter-block">
   <div class="page-container">
 <header class="inner-header">
   <h1 class="inner-header-title"> Гостиницы Седоны </h1>
@@ -64,7 +65,7 @@
    <a class="breadcrumbs-link ">Гостиницы</a>
       </li>
 </ul>
-</header>
+</header>0
 
 <!-- Фильтры-->
 <section class="catalog-products">
@@ -72,7 +73,7 @@
 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post">
 <section class="filter">
   <fieldset class="catalog-filter-group">
- <legend class="catalog-filter-title"> Инфраструктура: </legend>
+ <legend class="catalog-filter-title infrastructure"> Инфраструктура: </legend>
 
 <ul class="catalog-filter-list">
 
@@ -94,7 +95,7 @@
 </fieldset>
 
 <fieldset class="catalog-filter-group">
-<legend class="catalog-filter-title">Тип жилья</legend>
+<legend class="catalog-filter-title type-hotel">Тип жилья</legend>
 
 <ul class="catalog-filter-list">
  <li class="catalog-filter-item">
@@ -120,7 +121,7 @@
 
 
 <fieldset class="catalog-filter-group">
-<legend class="catalog-filter-title">Стоимость</legend>
+<legend class="catalog-filter-title cost">Стоимость</legend>
 </fieldset>
 <section class="buttons">
 <button class="button button-blue"  type="submit">Применить</button>
@@ -129,7 +130,8 @@
 </section>
 </form>
 </section>
-
+</div>
+</section>
 
 <!--Найдено-->
 <section class="sorting">
@@ -156,12 +158,13 @@
 </div>
 </section>
 
+
 <!-- Отели-->
 <section class="products">
 <ul class="product-list">
 <li class="product-card">
-<a class="product-card-link" href="product.html">
-  <img class="catalog" src="images/catalog/hotel Amara Resort & Spa.jpg" width="300" height="212"alt="Гостиница Amara Resort & Spa">
+<a class="product-card-image-link" href="product.html">
+  <img class="product-card-image" src="images/catalog/hotel Amara Resort & Spa.jpg" width="300" height="212"alt="Гостиница Amara Resort & Spa">
 <h3 class="product-card-title">Amara Resort & Spa</h3>
 </a>
 <p>
@@ -177,8 +180,8 @@
 </li>
 
 <li class="product-card">
-  <a class="product-card-link" href="product.html">
-    <img class="catalog" src="images/catalog/hotel  Villas at Poco Diablo.jpg" width="300" height="212"alt="Гостиница Villas at Poco Diablo">
+  <a class="product-card-image-link" href="product.html">
+    <img class="product-card-image" src="images/catalog/hotel  Villas at Poco Diablo.jpg" width="300" height="212"alt="Гостиница Villas at Poco Diablo">
    <h3 class="product-card-title">Villas at Poco Diablo</h3>
 </a>
 
@@ -193,8 +196,8 @@
   </li>
 
 <li class="product-card">
-  <a class="product-card-link" href="product.html">
-    <img class="catalog" src="images/catalog/hotel  Desert Quail Inn.jpg" width="300" height="212"alt="Гостиница Desert Quail Inn">
+  <a class="product-card-image-link" href="product.html">
+    <img class="product-card-image" src="images/catalog/hotel  Desert Quail Inn.jpg" width="300" height="212"alt="Гостиница Desert Quail Inn">
   <h3 class="product-card-title">Desert Quail Inn</h3>
 </a>
 
@@ -210,9 +213,9 @@
 
 
 <li class="product-card">
-  <a class="product-card-link" href="product.html">
-    <img class="catalog" src="images/catalog/hotel  GreenTree Inn.jpg" width="300" height="212"alt="Гостиница GreenTree Inn">
-  <h3 class="product-card-title">GreenTree Inn</h3>
+  <a class="product-card-image-link" href="product.html">
+    <img class="product-card-image" src="images/catalog/hotel  GreenTree Inn.jpg" width="300" height="212"alt="Гостиница GreenTree Inn">
+  <h3 class="product-card-image-title">GreenTree Inn</h3>
 <p>
 <span class="product-card-type">Гостиница </span>
  <span class="product-card-price">От 1500₽</span>
@@ -225,7 +228,7 @@
 </ul>
 </section>
 <!-- Пагнация-->
-
+<div class="pagination-container">
 <ul class="pagination">
 
           <li class="pagination-item">
@@ -248,7 +251,7 @@
           </li>
         </ul>
 
-
+      </div>
       <!-- Рассылка-->
 <section class="mailing-inner">
 <h2 class="mailing-title"> Подпишитесь на рассылку</h2>
@@ -260,9 +263,9 @@
           <input class="field"  placeholder=" Ваш e-mail" type="email" name="newsletter-email" id="mailing-email" required>
           <button class="button button-blue" type="submit">Подписаться </button>
           </form>
-        </div>
+
         </section>
-      </div>
+
     </main>
 
 <!-- footer -->
