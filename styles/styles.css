@@ -1102,10 +1102,147 @@ height: 32.9px;
 }
 
 
-.filter{
+.filter {
   display: flex;
   text-align: left;
 }
+
+.filter-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-title {
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-bottom: 32px;
+}
+
+.catalog-filter-group {
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+}
+
+.catalog-filter-group-radio {
+  margin-right: 70px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.catalog-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 53px;
+
+}
+
+.filter-item {
+  padding-bottom: 16px;
+
+}
+.control-label {
+  display: grid;
+  grid-template-columns: 20px 110px;
+  gap: 17px;
+  line-height: 24px;
+  word-wrap: break-word;
+
+}
+
+.control-label::before {
+  background-color:rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.control-label::after {
+  display: none;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url("../images/checkbox.svg");
+  cursor: pointer;
+}
+
+.control-input:checked + .control-label::after {
+  display: block;
+}
+
+.control-label::before,
+.control-label::after {
+  content: "";
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  height: 20px;
+  margin-top: 2px;
+}
+
+.control-input[type="checkbox"]:hover + .control-label::before {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.control-input[type="checkbox"]:active + .control-label::before {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.control-input:focus-visible + .control-label::before {
+  outline: 3px solid rgba(131, 179, 211, 1);
+}
+
+.control-input:checked + .control-label::after {
+  display: block;
+}
+
+.control-input:disabled + .control-label {
+  opacity: 0.3;
+}
+
+.control-input:disabled:hover + .control-label::before {
+  background-color:rgba(255, 255, 255, 1);
+}
+
+.control-input[type="radio"] + .control-label::before {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"] + .control-label::after {
+  background-color: rgba(63, 94, 114, 1);
+  background-image: none;
+  background-clip: content-box;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.control-input[type="radio"]:hover + .control-label::before {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.control-input[type="checkbox"]:active + .control-label::before {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.filter-fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+}
+
 
 .control{
   color: #ffffff;
