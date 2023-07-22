@@ -6,22 +6,17 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="favicon.ico"><!-- 32×32 -->
     <link rel="icon" type="image/png" href="images/header/logoheader.svg">
-
   </head>
-  <body>
-
-    <div class="container">
-
-  <!-- Шапка -->
+<body>
+<div class="container">
 <header class="page-header">
 
   <nav class="navigation">
       <a class="navigation-logo" href="#">
-   <img class="page-header-logo" src="images/header/logoheader.svg" width="140" height="70" alt="Логотип «City of Sedona».">
+   <img src="images/header/logoheader.svg" width="140" height="70" alt="Логотип «City of Sedona».">
   </a>
 
  <ul class="navigation-list">
-
  <li class="navigation-item">
    <a class="navigation-link navigation-link-active" href="#">Главная</a>
  </li>
@@ -35,24 +30,23 @@
   </li>
   </ul>
 
-  <ul class="navigation-list navigation-user">
-
- <li class="navigation-item">
-  <a class="navigation-link navigation-user-link-search" href="#">
+<ul class="navigation-user-list">
+ <li class="navigation-user-item">
+  <a class="navigation-user-link  navigation-user-link-search" href="#">
     <span class="visually-hidden">Поиск</span>
   </a>
 </li>
 
-  <li class="navigation-item">
-  <a class="navigation-link navigation-user-link-favourites" href="#">
+  <li class="navigation-user-item">
+  <a class="navigation-user-link  navigation-user-link-favourites" href="#">
     <span class="visually-hidden">Нравится</span>
     <sup class="icon-button-counter">12</sup>
   </a>
 </li>
 
- <li class="navigation-item">
-  <a class="button button-beige button-want navigation-item-button" href="#">Хочу сюда!
+ <li class="navigation-user-item">
 
+  <a class="button button-beige button-want navigation-item-button" href="#">Хочу сюда!
   </a>
   </li>
  </ul>
@@ -61,10 +55,10 @@
 
  <!--Главный заголовок -->
  <main class="main-container main-index">
-<section class="hero">
+<div class="hero">
   <h1 class="visually-hidden">Гостиницы Седоны</h1>
   <img class="logo" src="images/welcome.svg" width="458" height="352" alt="Логотип Седона.">
-</section>
+</div>
 
 <!-- Вставка с описанием -->
 <section class="advantages">
@@ -100,7 +94,7 @@
       <p class="advantages-text-item">Большинство едет в Гранд Каньон и толпится там</p>
     </li>
     <li class="advantages-item advantages-item-blue  item-blue-last">
-      <img class="advantages-image" src="images/gallery/photo-2.jpg" width="800" "height="385" alt="Мост Дьявола">
+      <img class="advantages-image" src="images/gallery/photo-2.jpg" width="800" height="385" alt="Мост Дьявола">
       <div class="wrapper-blue-last">
         <h3 class="advantages-title-item advantages-title-item-white">Там есть<br> мост дьявола</h3>
         <p class="advantages-text-item advantages-text-item-white">Да, по нему можно пройти! Если вы осмелитесь,
@@ -108,6 +102,7 @@
       </div>
     </li>
   </ul>
+</section>
   <!-- Вставка с описанием -->
   <div class="services-block">
   <p class="services-list-title"> Приезжайте в Седону отдохнуть <br>в комфорте и уюте! </p>
@@ -115,10 +110,9 @@
   </div>
 
  <!-- Преимущества -->
-<h3 class="visually-hidden">Услуги</h3>
-
+ <section class="services">
+  <h2 class="visually-hidden">Преимущества Седоны</h2>
 <ul class="services-list">
-
 <li class="services-item services-item-home">
 <h3 class="services-title">Жильё</h3>
 <p class="services-description">Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино! </p>
@@ -200,14 +194,10 @@
             </svg>
           </a>
         </li>
-</svg>
-</a>
-</li>
 </ul>
 
   <a class="footer-phone" href="tel:+78128121212"> +7 (812) 812-12-12 </a>
   <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-    <span class="visually-hidden">Разработано HTML Academy</span>
     <span class="visually-hidden">Разработано HTML Academy</span>
     <svg class="htmlacademy-link-img" width="115" height="33" viewBox="0 0 115 33" aria-hidden="true">
       <path d="M0 12.9V15.5H2.5V12.9H0Z" />
