@@ -1476,3 +1476,318 @@ height: 32.9px;
   background: #F2F2F2;
   color: rgba(0, 0, 0, 1);
 }
+
+/* Modal */
+
+.modal-container {
+  position: fixed;
+  z-index: 7;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  background: rgba(242, 242, 242, 0.80);
+}
+
+.modal-container-close {
+  display: none;
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 40px;
+  background-color:rgba(255, 255, 255, 1);
+}
+
+.modal-date {
+  box-sizing: border-box;
+  width: 717px;
+  border-radius: 30px;
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.15);
+  padding: 64px 70px;
+  text-align: left;
+}
+
+.modal-close-button {
+  position: absolute;
+  padding: 16px;
+  top: 64px;
+  right: 52px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgba(242, 242, 242, 1);
+  border: none;
+  cursor: pointer;
+}
+
+.modal-close-button:hover,
+.modal-close-button:active {
+  background-color: rgba(230, 230, 230, 1);;
+}
+
+.modal-close-button:focus-visible{
+  outline: 3px solid rgba(131, 179, 211, 1);
+}
+
+.image-close:active {
+  opacity: 0.3;
+}
+
+.modal-title {
+  color: rgba(0, 0, 0, 1);
+  font-size: 30px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 64px;
+}
+
+.label-field {
+  color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.input-field-modal {
+  background-color: #F2F2F2;
+  box-sizing: border-box;
+  border: none;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  width: 440px;
+  padding: 12px 50px 12px 20px;
+  font-size: 18px;
+  font-family: inherit;
+  line-height: 24px;
+  border-radius: 4px;
+}
+.input-field-modal::-webkit-outer-spin-button,
+.input-field-modal::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.input-field-modal[type=number] {
+  -moz-appearance: textfield;
+}
+
+.input-field-modal:focus-visible{
+  border-radius: 4px;
+  outline: 3px solid rgba(131, 179, 211, 1);
+}
+.input-number {
+  padding: 14px 10px;
+  width: 31px;
+  height: 48px;
+  border-radius: 0;
+}
+
+.label-number {
+  padding-right: 46px;
+  align-self: center;
+}
+
+.search-date-button {
+  width: 577px;
+  padding: 18px 77px;
+  border-radius: 10px;
+  background: rgba(131, 179, 211, 1);
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.date-form-field {
+  background: rgba(242, 242, 242, 1) url("../images/date.svg") no-repeat 400px center;
+}
+
+.date-form-field::placeholder {
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+.date-form-field:hover {
+  background: rgba(230, 230, 230, 1) url("../images/date.svg") no-repeat 400px center;
+}
+
+.date-form-field:focus-visible{
+  border-radius: 4px;
+  outline: 3px solid rgba(131, 179, 211, 1);
+  background: rgba(230, 230, 230, 1) url("../images/date.svg") no-repeat 400px center;
+}
+
+.field-search-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 48px;
+}
+
+.field-group {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  top: 52px;
+  left: 157px;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(51, 51, 51, 1);
+}
+
+.error-message {
+  color: rgba(255, 87, 87, 1);
+}
+
+.message-close {
+  display: none;
+}
+
+.field-group-number {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.field-group-people {
+  display: flex;
+}
+
+.wrapper-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 48px;
+  background-color: rgba(242, 242, 242, 1);
+  border-radius: 4px;
+
+}
+
+.button-plus-minus {
+  border-radius: 0;
+  background-color: rgba(242, 242, 242, 1);
+  width: 100%;
+  padding: 0;
+  margin: 14px 10px;
+}
+
+.button-plus-minus:hover {
+  background-color: rgba(242, 242, 242, 1);;
+}
+
+.button-plus-minus:hover path {
+  fill: rgba(0, 0, 0, 1);
+
+}
+
+.button-plus-minus:focus-visible {
+  border-radius: 4px;
+  outline: 3px solid rgba(130, 179, 211, 1);
+  background-color: rgba(242, 242, 242, 1);
+}
+
+.button-plus-minus:active path {
+  fill-opacity: 0.2;
+}
+
+.button-plus-minus:active {
+  outline: none;
+}
+
+.image-plus-minus {
+  display: flex;
+  flex-basis: 100%;
+}
+
+/* Tooltip */
+.tooltip {
+  position: relative;
+}
+
+.tooltip-toggle {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  display: block;
+  cursor: pointer;
+}
+
+.tooltip-toggle:hover,
+.tooltip-toggle:focus-visible{
+  opacity: 0.6;
+}
+
+.tooltip-text {
+  position: absolute;
+  top: 40px;
+  left: -145px;
+  background-color: rgba(51, 51, 51, 1);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
+  color:rgba(255, 255, 255, 1);
+  padding: 20px 18px 18px 22px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 10px;
+  font-weight: 400;
+  width: 216px;
+  display: none;
+}
+
+@-moz-document url-prefix() {
+  .tooltip-text {
+    position: absolute;
+    top: 40px;
+    left: -55px;
+  }
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus-visible + .tooltip-text {
+  display: block;
+}
+
+.label-number-child {
+  position: relative;
+  padding-right: 43px;
+  align-self: center;
+}
+
+.tooltip-icon {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
+
+.tooltip-text:after {
+  content: '';
+  background-image: url("../images/triangle.svg");
+  width: 19px;
+  height: 9px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
